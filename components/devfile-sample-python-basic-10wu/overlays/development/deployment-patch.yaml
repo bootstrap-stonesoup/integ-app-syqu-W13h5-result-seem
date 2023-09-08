@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-10wu
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/bootstrap/integration-e2e-tenant/integ-app-syqu/devfile-sample-python-basic-10wu@sha256:d0c1712c8a3d429970dff3eed0caef6ca7d3169c961c828eae3601ef18e4a380
+        name: my-python
+        resources: {}
+status: {}
