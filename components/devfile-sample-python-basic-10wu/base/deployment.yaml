@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-10wu
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/bootstrap/integration-e2e-tenant/integ-app-syqu/devfile-sample-python-basic-10wu@sha256:d0c1712c8a3d429970dff3eed0caef6ca7d3169c961c828eae3601ef18e4a380
         name: my-python
         ports:
         - containerPort: 8081
